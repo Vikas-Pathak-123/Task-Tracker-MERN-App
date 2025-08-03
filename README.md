@@ -188,11 +188,9 @@ task-tracker/
 
 ### 🔗 Frontend
 **Live Demo:** [Task Tracker on Vercel](https://task-tracker-mern-app.vercel.app/)  
-*(Replace the link above with your actual Vercel URL)*
 
 ### 🔗 Backend
 **API Base URL:** [Render API Endpoint](https://task-tracker-mern-app.onrender.com/)  
-*(Replace the link above with your actual Render backend URL)*
 
 ---
 
