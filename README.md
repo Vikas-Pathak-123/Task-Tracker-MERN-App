@@ -213,13 +213,4 @@ You can use the following credentials to log in as a test admin user:
 
 ---
 
-## 📸 Suggestions for Further Enhancement
-
-- Add app screenshots or a demo GIF
-- Include deployment instructions (e.g., Vercel + Render)
-- Document API endpoints
-- Add contribution guidelines & license info
-
----
-
 Happy coding! 💻✨
