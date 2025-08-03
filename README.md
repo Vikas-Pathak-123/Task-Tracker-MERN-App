@@ -182,19 +182,30 @@ task-tracker/
 
 
 ---
+---
 
-## 🔐 Test Login Credentials
+## 🚀 Deployed Application
 
-You can use the following credentials to log in as a test admin user:
+### 🔗 Frontend
+**Live Demo:** [Task Tracker on Vercel](https://task-tracker-mern-app.vercel.app/)  
+*(Replace the link above with your actual Vercel URL)*
 
-```json
-{
-  "email": "admin@gmail.com",
-  "password": "123@Admin"
-}
+### 🔗 Backend
+**API Base URL:** [Render API Endpoint](https://task-tracker-mern-app.onrender.com/)  
+*(Replace the link above with your actual Render backend URL)*
+
+---
+
+## 🔐 Test Admin Login
+
+Use the following credentials to log in as a test admin user:
+
+```text
+Email:    admin@gmail.com  
+Password: 123@Admin
 ```
 
-> ⚠️ **Note**: Make sure this user exists in your database. You may need to manually insert it via MongoDB Compass, Atlas, or an admin route.
+> ⚠️ **Note:** Make sure the user exists in your MongoDB database. You may need to manually seed it or register it via the app.
 ---
 
 ## 🛠️ Troubleshooting
