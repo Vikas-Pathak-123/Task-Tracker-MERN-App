@@ -7,6 +7,7 @@ const getTasks = async (req, res, next) => {
   try {
     const tasks = await Task.find({ user: req.user._id });
     res.json(tasks);
+    console.log("tasks data",tasks);
   } catch (error) {
     next(error);
   }
@@ -30,6 +31,7 @@ const createTask = async (req, res, next) => {
     });
 
     res.status(201).json(task);
+    console.log("task data",task);
   } catch (error) {
     next(error);
   }
@@ -53,6 +55,7 @@ const getTask = async (req, res, next) => {
     }
 
     res.json(task);
+    console.log("task data",task);
   } catch (error) {
     next(error);
   }
@@ -80,6 +83,7 @@ const updateTask = async (req, res, next) => {
     });
 
     res.json(updatedTask);
+    console.log("updatedtask data",updatedTask);
   } catch (error) {
     next(error);
   }
@@ -107,6 +111,7 @@ const deleteTask = async (req, res, next) => {
       await Task.deleteOne({ _id: req.params.id });
       
       res.json({ message: 'Task removed' });
+      console.log(`${task.title} task removed` );
     } catch (error) {
       next(error);
     }

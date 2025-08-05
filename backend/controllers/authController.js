@@ -40,6 +40,7 @@ const registerUser = async (req, res, next) => {
         email: user.email,
         token: generateToken(user._id)
       });
+      console.log("user data",user);
     } else {
       res.status(400);
       throw new Error('Invalid user data');
@@ -70,6 +71,7 @@ const loginUser = async (req, res, next) => {
         email: user.email,
         token: generateToken(user._id)
       });
+      console.log("user data",user);
     } else {
       res.status(401);
       throw new Error('Invalid credentials');
